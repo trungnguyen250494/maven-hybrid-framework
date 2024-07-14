@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Edge"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.729">
+  <properties />
+  
+  
+            <testcase name="User_01_Register" time="1.530" classname="com.nopcommerce.account.Level_18_ExtentReportV5" />
+                <testcase name="User_02_Login" time="2.199" classname="com.nopcommerce.account.Level_18_ExtentReportV5" />
+      
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+    <parameter name="environment" value="dev"/>
+    <listeners>
+        <listener class-name="commons.MethodListener"></listener>
+        <listener class-name="reportConfig.AllureTestListener"></listener>
+<!--        <listener class-name="reportConfig.ExtentTestListener"></listener>-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="Run on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.nopcommerce.account.Level_23_Faker_Library"/>
+        </classes>
+    </test>
+
+    <test name="Run on Firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.nopcommerce.account.Level_23_Faker_Library"/>
+        </classes>
+    </test>
+
+    <test name="Run on Edge" preserve-order="true">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.nopcommerce.account.Level_23_Faker_Library"/>
+        </classes>
+    </test>
+
+    <!--    <test name="Run on Safari" preserve-order="true">-->
+    <!--        <parameter name="browser" value="safari"/>-->
+    <!--        <classes>-->
+    <!--            <class name="com.nopcommerce.account.Level_18_ExtentReportV5"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--	<test name="Run on Coc Coc">-->
+    <!--	<parameter name="browser" value="coccoc"/>-->
+    <!--	<classes>-->
+    <!--	<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+    <!--	</classes>-->
+    <!--	</test>-->
+    <!--	-->
+    <!--	<test name="Run on Brave">-->
+    <!--	<parameter name="browser" value="brave"/>-->
+    <!--	<classes>-->
+    <!--	<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+    <!--	</classes>-->
+    <!--	</test>-->
+
+    <!--<test name="Run on Opera">-->
+    <!--<parameter name="browser" value="opera"/>-->
+    <!--<classes>-->
+    <!--<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+    <!--</classes>-->
+    <!--</test>-->
+
+    <!-- Test -->
+</suite> <!-- Suite -->

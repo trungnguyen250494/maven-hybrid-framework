@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="dev"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.AllureTestListener"/>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_18_ExtentReportV5">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_02_Login" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="deleteFileInReport"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_18_ExtentReportV5 -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_18_ExtentReportV5">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_02_Login" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="deleteFileInReport"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_18_ExtentReportV5 -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->

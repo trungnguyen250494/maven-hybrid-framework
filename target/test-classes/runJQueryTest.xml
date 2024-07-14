@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Table - Data Grid">
+	<parameter name="url" value="https://blueimp.github.io/jQuery-File-Upload/" />
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.jquery.upload.Level_14_Upload_Files" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->

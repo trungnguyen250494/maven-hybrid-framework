@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook">
+	<parameter name="url" value="https://www.facebook.com" />
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.facebook.home.Level_20_Element_Undisplayed" />
+		</classes>
+	</test>
+
+
+	<!--	<test name="Run on Coc Coc">-->
+	<!--	<parameter name="browser" value="coccoc"/>-->
+	<!--	<classes>-->
+	<!--	<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+	<!--	</classes>-->
+	<!--	</test>-->
+	<!--	-->
+	<!--	<test name="Run on Brave">-->
+	<!--	<parameter name="browser" value="brave"/>-->
+	<!--	<classes>-->
+	<!--	<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+	<!--	</classes>-->
+	<!--	</test>-->
+
+	<!--<test name="Run on Opera">-->
+	<!--<parameter name="browser" value="opera"/>-->
+	<!--<classes>-->
+	<!--<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+	<!--</classes>-->
+	<!--</test>-->
+
+	<!--	<test name="Run on Safari">-->
+	<!--		<parameter name="browser" value="safari" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.nopcommerce.user.Level_04_Multiple_Browsers" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<!-- Test -->
+</suite> <!-- Suite -->
