@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Run on Chrome"
+<testsuite name="Run on Edge"
            tests="7"
            failures="0"
            errors="0"
            skipped="0"
-           time="7.054">
+           time="6.562">
   <properties />
   
   
-            <testcase name="TC_06_Existing_Email_Incorrect_Password" time="0.835" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+            <testcase name="TC_02_Login_Empty_Data" time="0.989" classname="com.nopcommerce.account.Level_23_Faker_Library" />
                 <testcase name="TC_07_Login_Success" time="1.124" classname="com.nopcommerce.account.Level_23_Faker_Library" />
-                <testcase name="TC_03_Login_Invalid_Email" time="0.471" classname="com.nopcommerce.account.Level_23_Faker_Library" />
-                <testcase name="TC_04_Login_NotFound_Email" time="0.727" classname="com.nopcommerce.account.Level_23_Faker_Library" />
-                <testcase name="TC_01_Register_Successfully" time="2.103" classname="com.nopcommerce.account.Level_23_Faker_Library" />
-                <testcase name="TC_02_Login_Empty_Data" time="1.056" classname="com.nopcommerce.account.Level_23_Faker_Library" />
-                <testcase name="TC_05_Existing_Email_Empty_Password" time="0.738" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+                <testcase name="TC_04_Login_NotFound_Email" time="0.673" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+                <testcase name="TC_01_Register_Successfully" time="1.849" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+                <testcase name="TC_06_Existing_Email_Incorrect_Password" time="0.766" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+                <testcase name="TC_03_Login_Invalid_Email" time="0.429" classname="com.nopcommerce.account.Level_23_Faker_Library" />
+                <testcase name="TC_05_Existing_Email_Empty_Password" time="0.732" classname="com.nopcommerce.account.Level_23_Faker_Library" />
       
 </testsuite>

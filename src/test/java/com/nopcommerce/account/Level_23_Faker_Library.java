@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import pageObjects.portal.UserHomePageObject;
 import pageObjects.portal.UserLoginPageObject;
 import pageObjects.portal.UserRegisterPageObject;
+import utilities.FakerConfig;
 
 import java.util.Locale;
 import java.util.Random;
@@ -22,20 +23,20 @@ public class Level_23_Faker_Library extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserRegisterPageObject registerPage;
+	private FakerConfig fakerConfig;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
 	public void beforeClass(String browserName, String environmentName) {
 		driver = getBrowserDriver(browserName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
-
-		Faker faker = new Faker(new Locale("en-US"));
-		firstName = faker.address().firstName();
-		lastName = faker.address().lastName();
-		correctPassword = "Tester@123";
+		fakerConfig = FakerConfig.getFaker();
+		firstName = fakerConfig.getFirstName();
+		lastName = fakerConfig.getLastName();
+		correctPassword = fakerConfig.getPassword();
 		incorrectPassword = "123";
-		confirmPassword = "Tester@123";
-		validEmail = faker.internet().emailAddress();
+		confirmPassword = correctPassword;
+		validEmail = fakerConfig.getEmailAddress();
 		invalidEmail = "tester@yopmail.com@123";
 		notFoundEmail = "testerHello@yopmail.com";
 
