@@ -19,7 +19,7 @@ import testdata.pojoData.UserInfo;
 import java.lang.reflect.Method;
 import java.util.Random;
 
-public class Level_27_PojoData extends BaseTest {
+public class Level_27_Data_POJO extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
