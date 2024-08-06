@@ -19,7 +19,7 @@ import testdata.jsonData.UserInfo;
 import java.lang.reflect.Method;
 import java.util.Random;
 
-public class Level_28_Data_JSON extends BaseTest {
+public class Level_29_Data_Excel extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
