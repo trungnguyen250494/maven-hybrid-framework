@@ -19,7 +19,7 @@
         <maven.compiler.source>11</maven.compiler.source>
 
         <!-- Global variable for dependencies -->
-        <webdriver.version>4.16.1</webdriver.version>
+        <webdriver.version>4.23.0</webdriver.version>
         <testng.version>6.14.3</testng.version>
         <jackson.version>2.10.0</jackson.version>
         <aspectj.version>1.9.8</aspectj.version>

@@ -4,13 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.admin.AdminDashboardPageObject;
 import pageObjects.admin.AdminLoginPageObject;
-import pageObjects.portal.UserAddressPageObject;
-import pageObjects.portal.UserCustomerPageObject;
-import pageObjects.portal.UserHomePageObject;
-import pageObjects.portal.UserLoginPageObject;
-import pageObjects.portal.UserProductReviewPageObject;
-import pageObjects.portal.UserRegisterPageObject;
-import pageObjects.portal.UserRewardPointPageObject;
+import pageObjects.portal.*;
 
 public class PageGeneratorManager {
 	public static UserHomePageObject getUserHomePage(WebDriver driver) {
@@ -47,6 +41,10 @@ public class PageGeneratorManager {
 
 	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
 		return new AdminDashboardPageObject(driver);
+	}
+
+	public static UserSearchPageObject getUserSearchPage(WebDriver driver){
+		return new UserSearchPageObject(driver);
 	}
 
 }
