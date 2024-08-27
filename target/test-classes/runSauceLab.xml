@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="SauceLab" thread-count="4">
+    <parameter name="url" value="https://www.saucedemo.com/"/>
+    <listeners>
+        <listener class-name="commons.MethodListener"></listener>
+    </listeners>
+
+    <test name="Run on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.saucelab.sort.Level_31_Sort_ASC_DESC"/>
+        </classes>
+    </test>
+
+<!--    <test name="Run on Firefox" preserve-order="true">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.nopcommerce.account.Level_28_Data_JSON"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Run on Edge" preserve-order="true">-->
+<!--        <parameter name="browser" value="edge"/>-->
+<!--        <classes>-->
+<!--            <class name="com.nopcommerce.account.Level_28_Data_JSON"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- Test -->
+</suite> <!-- Suite -->

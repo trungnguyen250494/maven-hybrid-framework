@@ -23,5 +23,6 @@ public class GlobalConstants {
 	public static final String BROWSER_EXTENSION_PATH = PROJECT_PATH + File.separator + "browserExtensions" + File.separator;
 	public static final String BROWSER_LOG_PATH = PROJECT_PATH + File.separator + "browserLogs" + File.separator;
 	public static final String RESOURCE_PATH = PROJECT_PATH + File.separator + "src" + File.separator + "test" + File.separator + "resources" + File.separator;
+	public static final String ENVIRONMENT_CONFIG_PATH = PROJECT_PATH + File.separator + "src" + File.separator +"test" + File.separator + "resources" + File.separator + "environmentConfigs" + File.separator;
 
 }

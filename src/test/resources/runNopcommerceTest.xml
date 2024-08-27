@@ -13,7 +13,7 @@
     <test name="Run on Chrome" preserve-order="true">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.nopcommerce.account.Level_30_TestCases_NotDependencies"/>
+            <class name="com.nopcommerce.account.Level_31_Environment_Owner"/>
         </classes>
     </test>
 
