@@ -1,26 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NopCommerce]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="3" parallel="tests" name="Failed suite [NopCommerce]" guice-stage="DEVELOPMENT" verbose="0">
   <parameter name="environment" value="dev"/>
   <listeners>
     <listener class-name="commons.MethodListener"/>
     <listener class-name="reportConfig.AllureTestListener"/>
-    <listener class-name="reportConfig.ExtentTestListener"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test thread-count="5" name="Run on Safari(failed)" verbose="0">
-    <parameter name="browser" value="safari"/>
+  <test thread-count="3" name="Run on Chrome-2(failed)" verbose="0">
+    <parameter name="environment" value="dev"/>
+    <parameter name="platform" value="2"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.account.Level_18_ExtentReportV5">
+      <class name="com.nopcommerce.account.Level_31_Environment_Java_Properties">
         <methods>
-          <include name="beforeClass"/>
-          <include name="User_02_Login" invocation-numbers="0"/>
-          <include name="afterClass"/>
-          <include name="User_01_Register" invocation-numbers="0"/>
+          <include name="Search_01_shouldBeSearchByEmptyData"/>
+          <include name="afterMethod"/>
           <include name="deleteFileInReport"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.nopcommerce.account.Level_18_ExtentReportV5 -->
+      </class> <!-- com.nopcommerce.account.Level_31_Environment_Java_Properties -->
     </classes>
-  </test> <!-- Run on Safari(failed) -->
+  </test> <!-- Run on Chrome-2(failed) -->
+  <test thread-count="3" name="Run on Chrome-0(failed)" verbose="0">
+    <parameter name="environment" value="dev"/>
+    <parameter name="platform" value="0"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_31_Environment_Java_Properties">
+        <methods>
+          <include name="Search_01_shouldBeSearchByEmptyData"/>
+          <include name="afterMethod"/>
+          <include name="deleteFileInReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_31_Environment_Java_Properties -->
+    </classes>
+  </test> <!-- Run on Chrome-0(failed) -->
+  <test thread-count="3" name="Run on Chrome-1(failed)" verbose="0">
+    <parameter name="environment" value="dev"/>
+    <parameter name="platform" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_31_Environment_Java_Properties">
+        <methods>
+          <include name="Search_01_shouldBeSearchByEmptyData"/>
+          <include name="afterMethod"/>
+          <include name="deleteFileInReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_31_Environment_Java_Properties -->
+    </classes>
+  </test> <!-- Run on Chrome-1(failed) -->
 </suite> <!-- Failed suite [NopCommerce] -->

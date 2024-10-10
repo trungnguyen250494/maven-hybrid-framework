@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="NopCommerce" thread-count="4">
+    <parameter name="environment" value="dev"/>
+    <listeners>
+        <listener class-name="commons.MethodListener"></listener>
+        <listener class-name="reportConfig.AllureTestListener"></listener>
+<!--        <listener class-name="reportConfig.ExtentTestListener"></listener>-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="Run on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.nopcommerce.account.Level_31_Environment_Java_Properties"/>
+        </classes>
+    </test>
+
+<!--    <test name="Run on Firefox" preserve-order="true">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.nopcommerce.account.Level_28_Data_JSON"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <!-- Test -->
+</suite> <!-- Suite -->

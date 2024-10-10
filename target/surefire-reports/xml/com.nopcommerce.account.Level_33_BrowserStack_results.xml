@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome-0"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="12"
+           time="0.000">
+  <properties />
+  
+            <testcase name="beforeMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="Search_03_shouldBeSearchByContainedProductName" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="Search_04_shouldBeSearchByProductName" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="Search_01_shouldBeSearchByEmptyData" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+            <testcase name="Search_02_shouldBeSearchByNotExistedProductName" time="0.0" classname="com.nopcommerce.account.Level_33_BrowserStack">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

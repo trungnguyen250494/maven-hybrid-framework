@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-NopCommerce" class="navigator-link">
-              <span class="suite-name border-failed">NopCommerce</span>
+              <span class="suite-name border-skipped">NopCommerce</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-NopCommerce" class="navigator-link ">
-                    <span>runNopcommerceTest.xml</span>
+                    <span>runNopcommerceTest-BrowserStack.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-NopCommerce" class="navigator-link ">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,65 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-NopCommerce" class="hide-methods failed suite-NopCommerce"> (hide)</a> <!-- hide-methods failed suite-NopCommerce -->
-                      <a href="#" panel-name="suite-NopCommerce" class="show-methods failed suite-NopCommerce"> (show)</a> <!-- show-methods failed suite-NopCommerce -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-NopCommerce" class="hide-methods skipped suite-NopCommerce"> (hide)</a> <!-- hide-methods skipped suite-NopCommerce -->
+                      <a href="#" panel-name="suite-NopCommerce" class="show-methods skipped suite-NopCommerce"> (show)</a> <!-- show-methods skipped suite-NopCommerce -->
                     </span>
-                    <div class="method-list-content failed suite-NopCommerce">
+                    <div class="method-list-content skipped suite-NopCommerce">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_31_Environment_Java_Properties" class="method navigator-link" hash-for-method="Search_01_shouldBeSearchByEmptyData">Search_01_shouldBeSearchByEmptyData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-NopCommerce -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-NopCommerce" class="hide-methods passed suite-NopCommerce"> (hide)</a> <!-- hide-methods passed suite-NopCommerce -->
-                      <a href="#" panel-name="suite-NopCommerce" class="show-methods passed suite-NopCommerce"> (show)</a> <!-- show-methods passed suite-NopCommerce -->
-                    </span>
-                    <div class="method-list-content passed suite-NopCommerce">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_31_Environment_Java_Properties" class="method navigator-link" hash-for-method="Search_01_shouldBeSearchByEmptyData">Search_01_shouldBeSearchByEmptyData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_31_Environment_Java_Properties" class="method navigator-link" hash-for-method="Search_01_shouldBeSearchByEmptyData">Search_01_shouldBeSearchByEmptyData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NopCommerce" title="com.nopcommerce.account.Level_18_ExtentReportV5" class="method navigator-link" hash-for-method="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-NopCommerce -->
+                    </div> <!-- method-list-content skipped suite-NopCommerce -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -161,164 +127,82 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-NopCommerce" class="panel NopCommerce">
-          <div class="suite-NopCommerce-class-failed">
+          <div class="suite-NopCommerce-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.nopcommerce.account.Level_18_ExtentReportV5</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.account.Level_31_Environment_Java_Properties</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">
-                  </a> <!-- User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...) -->
-                  <span class="method-name">User_01_Register</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Method))</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;11.0.16&apos;
-Driver info: org.openqa.selenium.safari.SafariDriver
-Command: [B8169754-8B07-4C60-937D-112D8F4D80BC, findElement {using=id, value=FirstName}]
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 23F79, safari:platformVersion: 14.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: B8169754-8B07-4C60-937D-112D8F4D80BC
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at commons.BasePage.getWebElement(BasePage.java:193)
-	at commons.BasePage.waitUntilElementVisible(BasePage.java:483)
-	at pageObjects.portal.UserRegisterPageObject.inputToFirstNameTextbox(UserRegisterPageObject.java:55)
-	at com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(Level_18_ExtentReportV5.java:53)
-... Removed 33 stack frames
+                  <a name="Search_01_shouldBeSearchByEmptyData">
+                  </a> <!-- Search_01_shouldBeSearchByEmptyData -->
+                  <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.browserstack.utils.LogReportingAPI.print(Unknown Source)
+	at commons.BaseTest.deleteAllFileInFolder(BaseTest.java:264)
+	at commons.BaseTest.deleteFileInReport(BaseTest.java:245)
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">
-                  </a> <!-- User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method)) -->
-                  <span class="method-name">User_02_Login</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: ico-logout (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;11.0.16&apos;
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 23F79, safari:platformVersion: 14.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: B8169754-8B07-4C60-937D-112D8F4D80BC
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at commons.BasePage.waitForElementClickable(BasePage.java:508)
-	at commons.BasePage.clickToLogoutLinkAtUserPage(BasePage.java:559)
-	at com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(Level_18_ExtentReportV5.java:78)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="Search_01_shouldBeSearchByEmptyData">
+                  </a> <!-- Search_01_shouldBeSearchByEmptyData -->
+                  <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_01_shouldBeSearchByEmptyData">
+                  </a> <!-- Search_01_shouldBeSearchByEmptyData -->
+                  <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-NopCommerce-class-failed -->
-          <div class="suite-NopCommerce-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.nopcommerce.account.Level_18_ExtentReportV5</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">
-                  </a> <!-- User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...) -->
-                  <span class="method-name">User_01_Register</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">
-                  </a> <!-- User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...) -->
-                  <span class="method-name">User_01_Register</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)">
-                  </a> <!-- User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...) -->
-                  <span class="method-name">User_01_Register</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">
-                  </a> <!-- User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method)) -->
-                  <span class="method-name">User_02_Login</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">
-                  </a> <!-- User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method)) -->
-                  <span class="method-name">User_02_Login</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))">
-                  </a> <!-- User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method)) -->
-                  <span class="method-name">User_02_Login</span>
-                  <span class="parameters">(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-NopCommerce-class-passed -->
+          </div> <!-- suite-NopCommerce-class-skipped -->
         </div> <!-- panel NopCommerce -->
         <div panel-name="test-xml-NopCommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Volumes/Trung-Work/AutomationTesting/workspace/maven-hybrid-framework/src/test/resources/runNopcommerceTest.xml</span>
+            <span class="header-content">/Users/trungtn/IdeaProjects/maven-hybrid-framework/src/test/resources/runNopcommerceTest-BrowserStack.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;NopCommerce&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;NopCommerce&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
     &lt;listener class-name=&quot;reportConfig.AllureTestListener&quot;/&gt;
-    &lt;listener class-name=&quot;reportConfig.ExtentTestListener&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Chrome&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Run on Chrome-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nopcommerce.account.Level_18_ExtentReportV5&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.account.Level_31_Environment_Java_Properties&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Run on Chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Firefox&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;/test&gt; &lt;!-- Run on Chrome-0 --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Run on Chrome-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nopcommerce.account.Level_18_ExtentReportV5&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.account.Level_31_Environment_Java_Properties&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Run on Firefox --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Edge&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+  &lt;/test&gt; &lt;!-- Run on Chrome-1 --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Run on Chrome-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nopcommerce.account.Level_18_ExtentReportV5&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.account.Level_31_Environment_Java_Properties&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Run on Edge --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Safari&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.nopcommerce.account.Level_18_ExtentReportV5&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Run on Safari --&gt;
+  &lt;/test&gt; &lt;!-- Run on Chrome-2 --&gt;
 &lt;/suite&gt; &lt;!-- NopCommerce --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -330,16 +214,13 @@ Session ID: B8169754-8B07-4C60-937D-112D8F4D80BC
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Run on Chrome (1 class)</span>
+                <span class="test-name">Run on Chrome-0 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Run on Firefox (1 class)</span>
+                <span class="test-name">Run on Chrome-1 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Run on Edge (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Run on Safari (1 class)</span>
+                <span class="test-name">Run on Chrome-2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -365,44 +246,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'User_01_Register')
-data.setCell(0, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(0, 3, 30705);
+data.setCell(0, 1, 'Search_01_shouldBeSearchByEmptyData')
+data.setCell(0, 2, 'com.nopcommerce.account.Level_31_Environment_Java_Properties')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'User_02_Login')
-data.setCell(1, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(1, 3, 30025);
+data.setCell(1, 1, 'Search_01_shouldBeSearchByEmptyData')
+data.setCell(1, 2, 'com.nopcommerce.account.Level_31_Environment_Java_Properties')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'User_02_Login')
-data.setCell(2, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(2, 3, 2362);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'User_02_Login')
-data.setCell(3, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(3, 3, 2260);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'User_02_Login')
-data.setCell(4, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(4, 3, 2199);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'User_01_Register')
-data.setCell(5, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(5, 3, 1925);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'User_01_Register')
-data.setCell(6, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(6, 3, 1845);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'User_01_Register')
-data.setCell(7, 2, 'com.nopcommerce.account.Level_18_ExtentReportV5')
-data.setCell(7, 3, 1530);
+data.setCell(2, 1, 'Search_01_shouldBeSearchByEmptyData')
+data.setCell(2, 2, 'com.nopcommerce.account.Level_31_Environment_Java_Properties')
+data.setCell(2, 3, 0);
 window.suiteTableData['NopCommerce']= { tableData: data, tableDiv: 'times-div-NopCommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-NopCommerce">
               </div> <!-- times-div-NopCommerce -->
             </div> <!-- times-div -->
@@ -428,79 +289,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nopcommerce.account.Level_18_ExtentReportV5</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.nopcommerce.account.Level_31_Environment_Java_Properties</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_01_shouldBeSearchByEmptyData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">deleteFileInReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass(chrome, dev)</span>
-                <span class="method-start">23 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</span>
-                <span class="method-start">3709 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                <span class="method-start">5608 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">7870 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass(firefox, dev)</span>
-                <span class="method-start">8323 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</span>
-                <span class="method-start">13696 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                <span class="method-start">15624 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">17987 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass(edge, dev)</span>
-                <span class="method-start">18536 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</span>
-                <span class="method-start">21559 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                <span class="method-start">23090 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">25289 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass(safari, dev)</span>
-                <span class="method-start">25395 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">User_01_Register(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_01_Register(java.lang.reflect.Metho...)</span>
-                <span class="method-start">29818 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">User_02_Login(public void com.nopcommerce.account.Level_18_ExtentReportV5.User_02_Login(java.lang.reflect.Method))</span>
-                <span class="method-start">60613 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">90961 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

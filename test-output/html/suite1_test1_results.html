@@ -12,13 +12,13 @@
 <body>
 <h1>Run on Chrome</h1>
 <p>
-  Test duration: 2.905s
+  Test duration: 41.209s
 </p>
 
   <table class="resultsTable configTable">
     <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
               <tr class="group">
-        <td colspan="3">com.nopcommerce.account.Level_31_Environment_Owner</td>
+        <td colspan="3">com.nopcommerce.account.Level_33_BrowserStack</td>
       </tr>
             
 <tr>
@@ -26,7 +26,7 @@
                   beforeMethod
       </td>
   <td class="duration">
-    2.877s
+    41.190s
   </td>
   <td class="result">
         
@@ -34,15 +34,18 @@
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;/search&apos;] (tried for 30 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;11.0.24&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.91, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: /var/folders/d6/qbfxstcn7zg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53227/devtoo..., se:cdpVersion: 129.0.6668.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: e90ccffab5cbf4a9633e04c10543f5e3</b></a><br />
     <div class="stackTrace" id="exception-0">
-              java.base/java.util.Objects.requireNonNull(Objects.java:221)<br />
-              java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:732)<br />
-              java.base/java.util.Map.of(Map.java:1307)<br />
-              org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)<br />
-              commons.BaseTest.getBrowserDriverWithUrl(BaseTest.java:178)<br />
-              com.nopcommerce.account.Level_31_Environment_Owner.beforeMethod(Level_31_Environment_Owner.java:26)<br />
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br />
+              commons.BasePage.waitForElementClickable(BasePage.java:508)<br />
+              pageObjects.portal.UserHomePageObject.clickToSearchLink(UserHomePageObject.java:58)<br />
+              com.nopcommerce.account.Level_33_BrowserStack.beforeMethod(Level_33_BrowserStack.java:25)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -77,12 +80,96 @@
           <tr><td colspan="3">&nbsp;</td></tr>
       <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
                     <tr>
-          <td colspan="3" class="group">com.nopcommerce.account.Level_31_Environment_Owner</td>
+          <td colspan="3" class="group">com.nopcommerce.account.Level_33_BrowserStack</td>
         </tr>
                 
 <tr>
   <td class="method">
                   afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
       </td>
   <td class="duration">
     0.000s
@@ -101,12 +188,54 @@
   <table class="resultsTable" width="100%">
     <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.nopcommerce.account.Level_31_Environment_Owner</td>
+        <td colspan="3" class="group">com.nopcommerce.account.Level_33_BrowserStack</td>
       </tr>
             
 <tr>
   <td class="method">
                   Search_01_shouldBeSearchByEmptyData
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Search_02_shouldBeSearchByNotExistedProductName
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Search_03_shouldBeSearchByContainedProductName
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Search_04_shouldBeSearchByProductName
       </td>
   <td class="duration">
     0.000s
